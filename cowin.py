@@ -14,9 +14,10 @@ DATE:09-06-2021
 Definition: Used Public Cowin API to get the Details if the slots are available or not based on the pincode you provide and U can see the slots 
 for the current date...
 """
-
+"""
 def colored(r, g, b, text):
 	return "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(r, g, b, text)
+	"""
 pincode=int(input("\n              Enter the Pincode: "))
 
 #typ=str(input("\n   Please Provide Fee Type(Paid/Free): "))
