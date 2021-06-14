@@ -3,7 +3,7 @@ try:
 	import datetime
 	import requests 
 	from playsound import playsound
-	from colorama import Fore, Back, Style
+	#from colorama import Fore, Back, Style
 except ImportError as e:
 	print("Import Error Has Occured and Please Check all Modules and Library are installed Properly or Not!")
 
